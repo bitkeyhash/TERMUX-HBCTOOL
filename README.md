@@ -54,12 +54,15 @@ On your Terminal after installation, test if all Good
 ```bash
 hbctool --version
 ```
+
 It should be returned 
 ```bash
 hbctool 0.1.5
 ```
 
 ## Usage HBCTOOL 
+
+Now you have HBCTOOL on you terminal.
 
 Copy index.android.bundle in directory where termux have access (example "downloads")
 
@@ -84,9 +87,14 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 If you Have Some Experience with  hbctool and how to modify logic of function You Very Welcome.
 
+If You need a Tuto for Decompile apk on Android, Reverse engineering and bypass function into React Native apk ;
+i will show you my easy method on Android 😉😉😉
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Happy Guy ☺️☺️☺️
 
 its my first script bash. i am very happy it work. if you need anything send a issues. my script work on my Android Version 13 with Normal no root termux . 
