@@ -5,7 +5,7 @@ pkg update && pkg upgrade -y
 pkg install python3 -y
 
 # Install pipx
-python3 -m pip install --user pipx
+python3 -m pip install --user --upgrade pipx
 python3 -m pipx ensurepath
 
 # Install Poetry using pipx
