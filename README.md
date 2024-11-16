@@ -42,10 +42,23 @@ To install TERMUX-HBCTOOL, follow these steps:
    
 ## Installation HBCTOOL on Termux
 
-After installation, you can start using TERMUX-HBCTOOL by running:
+Start installation:
 ```bash
 bash ./termux-hbctool.sh
 ```
+
+## Test if installation is Ok 
+
+On your Terminal after installation, test if all Good 
+
+```bash
+hbctool --version
+```
+It should be returned 
+```bash
+hbctool 0.1.5
+```
+
 ## Usage HBCTOOL 
 
 Copy index.android.bundle in directory where termux have access (example "downloads")
@@ -74,4 +87,9 @@ If you Have Some Experience with  hbctool and how to modify logic of function Yo
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Happy Guy ☺️☺️☺️
+
+its my first script bash. i am very happy it work. if you need anything send a issues. my script work on my Android Version 13 with Normal no root termux . 
+
+Good Luck everybody. 🥷🥷🥷
 
