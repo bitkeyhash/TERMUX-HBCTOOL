@@ -44,7 +44,7 @@ To install TERMUX-HBCTOOL, follow these steps:
 
 After installation, you can start using TERMUX-HBCTOOL by running:
 ```bash
-bash ./hbctool.sh
+bash ./termux-hbctool.sh
 ```
 ## Usage HBCTOOL 
 
