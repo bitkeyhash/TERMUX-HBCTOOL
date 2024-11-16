@@ -1,23 +1,20 @@
+**Script Install TERMUX-HBCTOOL**
 
-## Script Install TERMUX-HBCTOOL
-
-**TERMUX-HBCTOOL** is a tool designed for use with Termux, providing various functionalities to enhance your terminal experience.
+TERMUX-HBCTOOL is a tool designed for use with Termux, providing various functionalities to enhance your terminal experience.
 
 ## Features
 
 termux-hbctool.sh script install and set up the HBCtool on Termux, follow these steps:
 
-1. **Install Python3 and Pipx:**
+1. **Install Python3 and Pipx**
    
-2. **Install Poetry:**
+2. **Install Poetry**
    
-3. **If Poetry installation fails:**
-   
-4. **Install Git and Clone HBCtool:**
+3. **Install Git and Clone HBCtool**
 
-5. **Install HBCtool:**
+5. **Install HBCtool**
 
-6. **Grant Termux Storage Access:**
+6. **Grant Termux Storage Access**
 
 
 ## Prerequisites
@@ -42,7 +39,7 @@ To install TERMUX-HBCTOOL, follow these steps:
    ```bash
    chmod +x termux-hbctool.sh
    ```
-
+   
 ## Installation HBCTOOL on Termux
 
 After installation, you can start using TERMUX-HBCTOOL by running:
