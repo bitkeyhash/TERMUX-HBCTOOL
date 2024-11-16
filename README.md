@@ -78,7 +78,7 @@ hbctool asm test index.android.bundle
 ```
 (Test is a Folder)
 
-Now you have access to instructions.hasm , string.json and metadata.json : contain all logic of APK or IPA.
+Now you have access to instructions.hasm , string.json and metadata.json.
 
 
 ## Contributing
