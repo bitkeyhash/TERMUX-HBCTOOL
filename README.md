@@ -1,7 +1,5 @@
 
-Script Install TERMUX-HBCTOOL
-
-## Overview
+## Script Install TERMUX-HBCTOOL
 
 **TERMUX-HBCTOOL** is a tool designed for use with Termux, providing various functionalities to enhance your terminal experience.
 
@@ -81,23 +79,24 @@ bash ./hbctool.sh
 Copy index.android.bundle in directory where termux have access (example "downloads")
 
 Command disassembly React Native index.android.bundle:
-
+```bash
 hbctool disasm index.android.bundle test
+```
 (Test is a folder)
 
 Command re-assembly React Native index.android.bundle:
-
+```bash
 hbctool asm test index.android.bundle
+```
 (Test is a Folder)
 
-Now you have access to instructions.hasm , who contain all logic of APK or IPA.
-
-
+Now you have access to instructions.hasm , string.json and metadata.json : contain all logic of APK or IPA.
 
 
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
 If you Have Some Experience with  hbctool and how to modify logic of function You Very Welcome.
 
 ## License
