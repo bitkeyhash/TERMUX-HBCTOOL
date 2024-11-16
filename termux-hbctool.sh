@@ -17,7 +17,6 @@ pkg install python-cryptography -y
 python3 -m pip install --user --upgrade poetry
 
 # Install Git and clone the HBCtool repository
-pkg install git -y
 git clone https://github.com/Kirlif/HBC-Tool.git
 
 # Navigate to the HBC-Tool directory and install HBCtool
