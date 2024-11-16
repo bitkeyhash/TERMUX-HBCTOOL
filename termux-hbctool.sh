@@ -8,9 +8,6 @@ pkg install python3 -y
 python3 -m pip install --user --upgrade pipx
 python3 -m pipx ensurepath
 
-# Install Poetry using pipx
-pipx install poetry
-
 # If Poetry installation fails, try the following
 pip install --upgrade python-pip
 pkg install python-cryptography -y
@@ -21,8 +18,8 @@ git clone https://github.com/Kirlif/HBC-Tool.git
 
 # Navigate to the HBC-Tool directory and install HBCtool
 cd HBC-Tool/
-poetry install
-poetry build
+python3 -m poetry install
+python3 -m poetry build
 cd dist
 pip install --force-reinstall hbctool-0.1.5-py3-none-any.whl
 
