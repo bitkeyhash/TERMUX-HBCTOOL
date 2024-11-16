@@ -8,43 +8,18 @@
 termux-hbctool.sh script install and set up the HBCtool on Termux, follow these steps:
 
 1. **Install Python3 and Pipx:**
-   ```bash
-   pkg install python3
-   python3 -m pip install --user pipx
-   python3 -m pipx ensurepath
-   ```
-
+   
 2. **Install Poetry:**
-   ```bash
-   pipx install poetry
-   ```
-
+   
 3. **If Poetry installation fails:**
-   ```bash
-   pip install --upgrade python-pip
-   pkg install python-cryptography
-   python3 -m pip install --user --upgrade poetry
-   ```
-
+   
 4. **Install Git and Clone HBCtool:**
-   ```bash
-   pkg install git
-   git clone https://github.com/Kirlif/HBC-Tool.git
-   ```
 
 5. **Install HBCtool:**
-   ```bash
-   cd HBC-Tool/
-   poetry install
-   poetry build
-   cd dist
-   pip install --force-reinstall hbctool-0.1.5-py3-none-any.whl
-   ```
 
 6. **Grant Termux Storage Access:**
-   ```bash
-   termux-setup-storage
-   ```
+
+
 ## Prerequisites
 
 - Termux app installed on your Android device.
@@ -103,4 +78,3 @@ If you Have Some Experience with  hbctool and how to modify logic of function Yo
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
