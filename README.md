@@ -1,3 +1,9 @@
+![Alt text](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*HCjofjdSK0QgqdwYSksirg.png)
+
+**Tutorial medium:**
+
+https://medium.com/@Bitkeyhash/hacker-une-app-react-native-depuis-android-sans-pc-avec-termux-hbctool-7a5ba5d49b85
+
 **Script Install TERMUX-HBCTOOL**
 
 TERMUX-HBCTOOL is a tool designed for use with Termux, providing various functionalities to enhance your terminal experience.
